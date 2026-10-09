@@ -72,3 +72,6 @@ scripts/
 !packages/mobile/scripts/
 packages/mobile/scripts/*
 !packages/mobile/scripts/generate-ios-certs.py
+
+# keep the prebuilt Vercel function committed
+!api/index.mjs

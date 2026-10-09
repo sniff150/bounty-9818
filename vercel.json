@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "installCommand": "npm install --prefix packages/web --no-audit --no-fund --legacy-peer-deps",
+  "buildCommand": "cd packages/web && npx vite build",
+  "outputDirectory": "packages/web/dist",
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
